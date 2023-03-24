@@ -1,9 +1,6 @@
 import React,{ useState, useEffect } from 'react';
 import type { AppProps } from 'next/app'
 import Router, { useRouter  } from 'next/router';
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 import Layout from '../components/shared/Layout';
 import Loader from '../components/shared/loader';
