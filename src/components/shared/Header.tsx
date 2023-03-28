@@ -76,7 +76,7 @@
                 />
               </svg>
               </div>
-          
+         
            
               
             </div>
@@ -84,7 +84,7 @@
               <div className="hidden sm:flex flex-row items-center space-x-6">
                 <ul className="flex inline-block">
                   <li
-                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[1.5px] 
                 before:bottom-0 before:left-0 before:bg-blue-500 
                 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                 before:transition before:ease-in-out before:duration-300  mr-3 font-semibold cursor-pointer hover:text-blue-500 "
@@ -92,7 +92,7 @@
                     Home
                   </li>
                   <li
-                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[1.5px]
                 before:bottom-0 before:left-0 before:bg-blue-500 
                 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                 before:transition before:ease-in-out before:duration-300  mr-3 font-semibold cursor-pointer hover:text-blue-500 "
@@ -100,7 +100,7 @@
                     Explore
                   </li>
                   <li
-                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[1.5px]
                 before:bottom-0 before:left-0 before:bg-blue-500 
                 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                 before:transition before:ease-in-out before:duration-300  mr-3 font-semibold cursor-pointer hover:text-blue-500 "
@@ -108,7 +108,7 @@
                     Services
                   </li>
                   <li
-                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                    className="relative before:content-[''] before:absolute before:block before:w-full before:h-[1.5px]
                 before:bottom-0 before:left-0 before:bg-blue-500 
                 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
                 before:transition before:ease-in-out before:duration-300  mr-3 font-semibold cursor-pointer hover:text-blue-500 "
@@ -117,8 +117,9 @@
                   </li>
                 </ul>
               </div>
-
-        
+              <div className="hidden sm:flex flex-row items-center space-x-6">
+              <h1 className=" text-2xl  text-blue-700 font-bold">Shark Bite</h1>
+              </div>
               <div className="hidden sm:flex flex-row items-center space-x-6">
                 <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-6 border border-blue-500 hover:border-transparent rounded transition-all duration-300 ease-in-out">
                   Become a SharkBite!
